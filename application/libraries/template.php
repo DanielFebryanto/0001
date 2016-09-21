@@ -6,10 +6,10 @@ class Template extends CI_Controller{
         $this->_ci= &get_instance();
     }
     function adminTemplate($template, $data=null){
-        $data['_content']=$this->_ci->load->view($template,$data, true);
-        $data['_header']=$this->_ci->load->view('admin/adminHeader',$data, true);
-        $data['_sidebar']=$this->_ci->load->view('admin/adminSideBar',$data, true);
-        $data['_footer']=$this->_ci->load->view('admin/adminFooter',$data, true);
+        $data['_adminContent']=$this->_ci->load->view($template,$data, true);
+        $data['_adminHeader']=$this->_ci->load->view('admin/adminHeader',$data, true);
+        $data['_adminideBar']=$this->_ci->load->view('admin/adminSideBar',$data, true);
+        $data['_adminFooter']=$this->_ci->load->view('admin/adminFooter',$data, true);
         $this->_ci->load->view('/admin/adminTemp.php',$data);
     }
 }
