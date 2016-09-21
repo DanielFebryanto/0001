@@ -1,4 +1,4 @@
-    
+<div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
 
                     <div class="navbar nav_title" style="border: 0;">
@@ -19,8 +19,9 @@
                     <!-- /menu prile quick info -->
 
                     <br />
-    <!-- sidebar menu -->
-    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
 
                         <div class="menu_section">
                             <h3>General</h3>
@@ -154,5 +155,4 @@
                     </div>
                     <!-- /menu footer buttons -->
                 </div>
-
             </div>

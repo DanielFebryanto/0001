@@ -1,4 +1,6 @@
-<!-- top navigation -->
+
+
+            <!-- top navigation -->
             <div class="top_nav">
 
                 <div class="nav_menu">
@@ -95,7 +97,7 @@
                                     <li>
                                         <div class="text-center">
                                             <a>
-                                                <strong><a href="inbox.html">See All Alerts</strong>
+                                                <strong><a href="inbox.html">See All Alerts</a></strong>
                                                 <i class="fa fa-angle-right"></i>
                                             </a>
                                         </div>
@@ -108,4 +110,5 @@
                 </div>
 
             </div>
+            
             <!-- /top navigation -->
