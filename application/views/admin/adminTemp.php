@@ -9,23 +9,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentallela Alela! | </title>
+    <title>Pagpug| </title>
 
     <!-- Bootstrap core CSS -->
 
-    <link href="<?php echo base_url() ?>assests/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="<?php echo base_url() ?>assests/fonts/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/animate.min.css" rel="stylesheet">
 
     <!-- Custom styling plus plugins -->
-    <link href="<?php echo base_url() ?>assests/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assests/css/maps/jquery-jvectormap-2.0.1.css" />
-    <link href="<?php echo base_url() ?>assests/css/icheck/flat/green.css" rel="stylesheet" />
-    <link href="<?php echo base_url() ?>assests/<?php echo base_url() ?>assests/css/floatexamples.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url() ?>assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/maps/jquery-jvectormap-2.0.1.css" />
+    <link href="<?php echo base_url() ?>assets/css/icheck/flat/green.css" rel="stylesheet" />
+    <link href="<?php echo base_url() ?>assets/<?php echo base_url() ?>assets/css/floatexamples.css" rel="stylesheet" type="text/css" />
 
-    <script src="<?php echo base_url() ?>assests/js/jquery.min.js"></script>
-    <script src="<?php echo base_url() ?>assests/js/nprogress.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/nprogress.js"></script>
     <script>
         NProgress.start();
     </script>
@@ -50,15 +50,15 @@
 
         <div class="main_container">
 
-            <?php $_adminSideBar ?>
-            <?php $_adminHeader ?>
+            <?php echo $_adminSideBar ?>
+            <?php echo $_adminHeader ?>
 
 
             <!-- page content -->
             <div class="right_col" role="main">
-            <?php $_adminContent ?>
+            <?php echo $_adminContent ?>
 
-            <?php $_adminFooter ?>
+            <?php echo $_adminFooter ?>
             </div>
             <!-- /page content -->
 
@@ -66,37 +66,37 @@
 
     </div>
 
-    <?php $_adminNotif ?>
+    <?php echo $_adminNotif ?>
 
-    <script src="<?php echo base_url() ?>assests/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
 
     <!-- gauge js -->
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/gauge/gauge.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/gauge/gauge_demo.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/gauge/gauge.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/gauge/gauge_demo.js"></script>
     <!-- chart js -->
-    <script src="<?php echo base_url() ?>assests/js/chartjs/chart.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/chartjs/chart.min.js"></script>
     <!-- bootstrap progress js -->
-    <script src="<?php echo base_url() ?>assests/js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="<?php echo base_url() ?>assests/js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/nicescroll/jquery.nicescroll.min.js"></script>
     <!-- icheck -->
-    <script src="<?php echo base_url() ?>assests/js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/icheck/icheck.min.js"></script>
     <!-- daterangepicker -->
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/moment.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/datepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/datepicker/daterangepicker.js"></script>
 
-    <script src="js/custom.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/custom.js"></script>
 
     <!-- flot js -->
     <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.pie.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.orderBars.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.time.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/date.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.spline.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.stack.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/curvedLines.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/flot/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.pie.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.orderBars.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.time.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/date.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.spline.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.stack.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/curvedLines.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/flot/jquery.flot.resize.js"></script>
     <script>
         $(document).ready(function () {
             // [17, 74, 6, 39, 20, 85, 7]
@@ -159,10 +159,10 @@
     </script>
 
     <!-- worldmap -->
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/maps/jquery-jvectormap-2.0.1.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/maps/gdp-data.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/maps/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>assests/js/maps/jquery-jvectormap-us-aea-en.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/maps/jquery-jvectormap-2.0.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/maps/gdp-data.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/maps/jquery-jvectormap-world-mill-en.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/maps/jquery-jvectormap-us-aea-en.js"></script>
     <script>
         $(function () {
             $('#world-map-gdp').vectorMap({
@@ -183,7 +183,7 @@
         });
     </script>
     <!-- skycons -->
-    <script src="<?php echo base_url() ?>assests/js/skycons/skycons.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/skycons/skycons.js"></script>
     <script>
         var icons = new Skycons({
                 "color": "#73879C"

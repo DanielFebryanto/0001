@@ -8,8 +8,9 @@ class Template extends CI_Controller{
     function adminTemplate($template, $data=null){
         $data['_adminContent']=$this->_ci->load->view($template,$data, true);
         $data['_adminHeader']=$this->_ci->load->view('admin/adminHeader',$data, true);
-        $data['_adminideBar']=$this->_ci->load->view('admin/adminSideBar',$data, true);
+        $data['_adminSideBar']=$this->_ci->load->view('admin/adminSideBar',$data, true);
         $data['_adminFooter']=$this->_ci->load->view('admin/adminFooter',$data, true);
+        $data['_adminNotif']=$this->_ci->load->view('admin/adminNotif',$data, true);
         $this->_ci->load->view('/admin/adminTemp.php',$data);
     }
 }
