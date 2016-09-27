@@ -133,7 +133,7 @@
                 //Get Nasabah Modal
                 $(".modalBtn").click(function () {
                     $.ajax({
-                        url: "<?php echo base_url("menu/formMenu") ?>",
+                        url: "<?php echo base_url("category/formCategories") ?>",
                         dataType: "HTML",
                     type: "GET",
                     success: function (data) {
