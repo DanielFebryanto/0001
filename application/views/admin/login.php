@@ -14,15 +14,15 @@
 
     <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/animate.min.css" rel="stylesheet">
 
     <!-- Custom styling plus plugins -->
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/icheck/flat/green.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/custom.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/icheck/flat/green.css" rel="stylesheet">
 
 
-    <script src="js/jquery.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
@@ -78,19 +78,19 @@
             </div>
             <div id="register" class="animate form">
                 <section class="login_content">
-                    <form>
+                    <form action="<?php echo base_url() ?>admin/login" method="post" />
                         <h1>Create Account</h1>
                         <div>
-                            <input type="text" class="form-control" placeholder="Username" required="" />
+                            <input type="text" class="form-control" name="email" placeholder="Username" required="" />
                         </div>
                         <div>
                             <input type="email" class="form-control" placeholder="Email" required="" />
                         </div>
                         <div>
-                            <input type="password" class="form-control" placeholder="Password" required="" />
+                            <input type="password" class="form-control" name="password" placeholder="Password" required="" />
                         </div>
                         <div>
-                            <a class="btn btn-default submit" href="index.html">Submit</a>
+                            <button class="btn btn-default submit" href="index.html">Submit</button>
                         </div>
                         <div class="clearfix"></div>
                         <div class="separator">

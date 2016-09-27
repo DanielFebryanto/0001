@@ -12,7 +12,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
                                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">John Doe
+                                    <img src="<?php echo base_url() ?>assets/images/picture.jpg" alt="">John Doe
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
@@ -41,7 +41,7 @@
                                     <li>
                                         <a>
                                             <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="<?php echo base_url() ?>assets/images/picture.jpg" alt="Profile Image" />
                                     </span>
                                             <span>
                                         <span>John Smith</span>
@@ -55,7 +55,7 @@
                                     <li>
                                         <a>
                                             <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="<?php echo base_url() ?>assets/images/picture.jpg" alt="Profile Image" />
                                     </span>
                                             <span>
                                         <span>John Smith</span>
@@ -69,7 +69,7 @@
                                     <li>
                                         <a>
                                             <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="<?php echo base_url() ?>assets/images/picture.jpg" alt="Profile Image" />
                                     </span>
                                             <span>
                                         <span>John Smith</span>
@@ -83,7 +83,7 @@
                                     <li>
                                         <a>
                                             <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
+                                        <img src="<?php echo base_url() ?>assets/images/picture.jpg" alt="Profile Image" />
                                     </span>
                                             <span>
                                         <span>John Smith</span>
