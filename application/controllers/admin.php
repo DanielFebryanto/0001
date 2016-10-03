@@ -28,9 +28,11 @@ class Admin extends CI_Controller {
     	$this->template->adminTemplate('admin/categories', $data);
     }
     
-    function createKategori(){
-
+    function filterWords(){
+        $badWords = array(
+            'anjing', 'bego', 'tolol', 'dongo', 'bangsat',//kata kata makian
+            'kontol', 'memek', 'peler', 'ngentot', 'sepong' //kata kata kotor
+            );
     }
-
     
 }//end of class
